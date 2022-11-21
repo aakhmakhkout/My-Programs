@@ -4,11 +4,24 @@ int main() {
     // int x=5;
     // printf("%p", &x);
     // return 0;
-    
-    // ARRAYS
-    int test[10]={2,4,223,45,34,423342,43,32,342,6675};
-    printf("%d, %d, %d, %d", test[8],test[3],test[3],test[5]);
     // printf("%d", test[4]);
 
+    // char test[15]={'N','O','U','M','A','A','N','-','N','A','B','I'};
+    
+    // for (int i=0;i<=15;i++) {
+    //     printf("%c", test[i]);
+    // }
+
+    int test[5];
+    int i=0, j=0;
+    printf("enter 5 numbers\n");
+    for (;i<5;i++) {
+    scanf("%d", &test[i]);
+    }
+
+    for(int i=0; i<5; i++) {
+
+    printf("%d, ", test[i]);
+  
     return 0;
 }
